@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hii", "hey", "wake up", "robert", "are you there"
+      ],
+      "responses": ["Hello sir", "How Are you sir!", "Tell me how may i help you", "i am here"
+      ]
+    },
+
+    {
+      "tag": "bye",
+      "patterns": ["bye", "good bye", "see you later", "sleep", "exit"
+      ],
+      "responses": ["Ok sir i am going to sleep you can call me anytime", "Bye sir", "Ok sir see you later"
+      ]
+    },
+
+    {
+      "tag": "health",
+      "patterns": ["are you fine", "how are you", "are you good"
+      ],
+      "responses": ["i am fine", "i am fine, How Are you sir!", "i feel good"
+      ]
+    }
+
+  ]
+}
